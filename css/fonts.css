@@ -1,6 +1,10 @@
 @font-face {
     font-family: 'Monserrat';
     font-family: 'TCM';
+    font-family: 'Viga';
+    font-family: 'Nexa';
     src: url('../fonts/Montserrat-Regular.ttf') format('truetype');
     src: url('../fonts/TCM_____.TTF') format('truetype');
+    src: url('../fonts/Viga-Regular.ttf') format('truetype');
+    src: url('../fonts/NexaDemo-Bold.ttf') format('truetype');
 }

@@ -1,10 +1,8 @@
 /* Import font */
 @import url('fonts.css');
 
+/* body */
 
-body {
-    font-family: "TCM";
-}
 
 /* Active */
 .active {
@@ -13,12 +11,14 @@ body {
 
 /* Navbar */
 .navbar {
-    background-color: rgb(44, 44, 44) !important;
+    background-color: rgb(0, 100, 0) !important;
+    font-family: 'TCM', sans-serif;
 }
 .navbar-brand {
-    font-size: 3em;
-    font-weight: 500;
-    color: green !important;
+    font-size: 2.7em;
+    font-weight: 600;
+    color: rgb(9, 214, 9) !important;
+    font-family: 'TCM', sans-serif;
 }
 
 .navbar-brand span {
@@ -30,9 +30,10 @@ body {
 }
 
 .nav-link {
-    font-size: 24px;
+    font-size: 20px;
     color: white !important;
     transition: .3s;
+    font-family: 'Nexa', sans-serif;
 }
 
 .nav-link:hover {
@@ -243,13 +244,66 @@ body {
 }
 
 
+/* Services */
+.services {
+    margin-top: 50px;
+}
+
+.services .judul {
+    text-align: center;
+    font-family: 'Nexa', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.services .garis {
+    height: 3px;
+    width: 80px;
+    background-color: orange;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: -10px;
+}
+
+.services p {
+    font-family: 'Nexa', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.services .content img {
+    width: 100px;
+}
+
+.services .kotak-1, .kotak-2, .kotak-3 {
+    border-radius: 10px;
+    padding: 13px;
+    width: 250px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-transform: uppercase;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, .6);
+    box-sizing: border-box;
+}
+
+.services .content .teks {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+
 
 @media (max-width: 768px) { 
     /* Active */
     .navbar .active {
-        background-color: green;
+        background-color: orange;
         border: none;
         padding: 10px;
+        box-sizing: border-box;
     }
     /* Navbar */
     .navbar-brand {
@@ -262,7 +316,7 @@ body {
     }
 
     .nav-link:hover {
-        background-color: green;
+        background-color: orange;
         border: none;
         padding: 10px;
         box-sizing: border-box;
@@ -303,6 +357,10 @@ body {
         font-size: 16px;
     }
 
+    .slider-2 .btn.btn-warning {
+        width: 120px;
+    }
+
     .slider-3 {
         height: 500px;
         background-position-y: 0;
@@ -310,7 +368,7 @@ body {
 
     .slider-3 .teks-utama {
         font-size: 34px;
-        margin-top: 100px;
+        margin-top: 90px;
     }
 
     .slider-3 .p {
@@ -349,6 +407,10 @@ body {
         background-position-y: 0;
         background-repeat: no-repeat;
     }
+
+    .slider-3 .teks-utama {
+        margin-top: 150px;
+    }
  }
 
 
@@ -364,5 +426,10 @@ body {
 
     .slider-3 .teks-utama {
         margin-top: 220px;
+    }
+
+    /* Services */
+    .services .kotak-1, .kotak-2, .kotak-3 {
+        margin-right: 10px;
     }
   }
