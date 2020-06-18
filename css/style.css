@@ -181,6 +181,68 @@ body {
     z-index: 3;
 }
 
+.slider-3 {
+    background-image: url(../img/petani-2.jpg);
+    background-size: cover;
+    height: 600px;
+    background-position-y: -130px;
+}
+
+.slider-3::after {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+    background-color: rgba(0, 128, 0, 0.750);
+}
+
+.slider-3 .teks-utama {
+    font-size: 48px;
+    text-align: center;
+    color: white;
+    position: relative;
+    z-index: 3;
+    margin-top: 200px;
+    line-height: 50px;
+    font-weight: 600;
+}
+
+.slider-3 p {
+    font-size: 16px;
+    color: white;
+    position: relative;
+    z-index: 3;
+    color: #f5f5f0;
+    margin-top: -10px;
+}
+
+.slider-3 .garis {
+    width: 40px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: white;
+    position: relative;
+    z-index: 3;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.slider-3 .btn.btn-success {
+    position: relative;
+    z-index: 3;
+    background-color: rgb(11, 184, 11) !important;
+    color: white;
+    font-size: 18px;
+    margin-top: 30px;
+    border-radius: 5px;
+    padding: 10px 15px;
+    border: none;
+}
+
+
 
 @media (max-width: 768px) { 
     /* Active */
@@ -217,7 +279,7 @@ body {
 
     .slider-1 .teks-utama {
         font-size: 34px;
-        margin-top: 150px;
+        margin-top: 130px;
     }
 
     .slider-1 p {
@@ -240,6 +302,21 @@ body {
     .slider-2 p {
         font-size: 16px;
     }
+
+    .slider-3 {
+        height: 500px;
+        background-position-y: 0;
+    }
+
+    .slider-3 .teks-utama {
+        font-size: 34px;
+        margin-top: 100px;
+    }
+
+    .slider-3 .p {
+        font-size: 16px;
+    }
+
 }
 
 
@@ -263,4 +340,29 @@ body {
     .slider-1 .petani-1 {
         display: none;
     }
+
+    .slider-2 .buah-sayur {
+        display: none;
+    }
+
+    .slider-3 {
+        background-position-y: 0;
+        background-repeat: no-repeat;
+    }
  }
+
+
+ @media (min-width: 992px) and (max-width: 1200px) { 
+     /* Slider */
+     .slider-2 .buah-sayur {
+         width: 700px;
+     }
+
+     .slider-3 {
+        background-position-y: 0;
+    }
+
+    .slider-3 .teks-utama {
+        margin-top: 220px;
+    }
+  }
