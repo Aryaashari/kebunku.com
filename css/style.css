@@ -2,7 +2,9 @@
 @import url('fonts.css');
 
 /* body */
-
+body {
+    font-family: 'TCM', sans-serif;
+}
 
 /* Active */
 .active {
@@ -12,13 +14,11 @@
 /* Navbar */
 .navbar {
     background-color: rgb(0, 100, 0) !important;
-    font-family: 'TCM', sans-serif;
 }
 .navbar-brand {
     font-size: 2.7em;
     font-weight: 600;
     color: rgb(9, 214, 9) !important;
-    font-family: 'TCM', sans-serif;
 }
 
 .navbar-brand span {
@@ -33,7 +33,6 @@
     font-size: 20px;
     color: white !important;
     transition: .3s;
-    font-family: 'Nexa', sans-serif;
 }
 
 .nav-link:hover {
@@ -71,7 +70,7 @@
 
 .slider-1 .teks-utama {
     margin-top: 200px;
-    font-size: 48px;
+    font-size: 46px;
     color: whitesmoke;
     font-weight: 600;
     position: relative;
@@ -147,7 +146,7 @@
 
 .slider-2 .teks-utama {
     margin-top: 200px;
-    font-size: 48px;
+    font-size: 46px;
     color: whitesmoke;
     font-weight: 600;
     position: relative;
@@ -163,7 +162,7 @@
 
 .slider-2 .btn.btn-warning {
     background-color: orange !important;
-    width: 110px;
+    width: 140px;
     padding: 10px;
     border-radius: 5px;
     font-size: 18px;
@@ -201,7 +200,7 @@
 }
 
 .slider-3 .teks-utama {
-    font-size: 48px;
+    font-size: 46px;
     text-align: center;
     color: white;
     position: relative;
@@ -333,7 +332,7 @@
 
     .slider-1 .teks-utama {
         font-size: 34px;
-        margin-top: 130px;
+        margin-top: 100px;
     }
 
     .slider-1 p {
@@ -350,7 +349,11 @@
 
     .slider-2 .teks-utama {
         font-size: 34px;
-        margin-top: 150px;
+        margin-top: 100px;
+    }
+
+    .slider-2 .btn.btn-warning {
+        font-size: 14px;
     }
 
     .slider-2 p {
@@ -368,7 +371,7 @@
 
     .slider-3 .teks-utama {
         font-size: 34px;
-        margin-top: 90px;
+        margin-top: 30px;
     }
 
     .slider-3 .p {
