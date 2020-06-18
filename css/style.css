@@ -221,7 +221,7 @@ body {
     }
 
     .slider-1 p {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .slider-2 {
@@ -230,6 +230,15 @@ body {
 
     .slider-2 .buah-sayur {
         display: none;
+    }
+
+    .slider-2 .teks-utama {
+        font-size: 34px;
+        margin-top: 150px;
+    }
+
+    .slider-2 p {
+        font-size: 16px;
     }
 }
 
