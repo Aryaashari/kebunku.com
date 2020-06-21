@@ -351,6 +351,135 @@ body {
 }
 
 
+/* Testimonial */
+.owl-item{
+    border: none;
+}
+
+.testimonial {
+    background-image: url('../img/Capture.PNG');
+    padding: 30px;
+    background-size: cover;
+    margin-top: 150px;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.testimonial::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 128, 0, 0.750);
+}
+
+.testimonial .judul {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 38px;
+    font-family: 'Nexa', sans-serif;
+    font-weight: 500;
+}
+
+.testimonial .garis {
+    height: 5px;
+    border-radius: 20px;
+    width: 70px;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+    margin: auto;
+}
+
+.testimonial .card {
+    background-color: transparent;
+    border: 2px solid whitesmoke;
+    border-radius: 20px;
+    position: relative;
+    padding-left: 20px;
+    width: 300px;
+    height: 250px;
+}
+
+.testimonial .owl-carousel {
+    margin-top: 60px;
+}
+
+.testimonial .card .foto {
+    width: 70px;
+    height: 70px;
+    background-size: cover;
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid white;
+    left: 0;
+    top: -30px;
+    z-index: 10;
+}
+
+.testimonial .card .fa-quote-right {
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    right: 28px;
+    top: 10px;
+}
+
+.testimonial .card p {
+    font-size: 16px;
+    font-style: italic;
+    color: whitesmoke;
+    margin-top: 70px;
+    font-family: 'Monserrat', sans-serif;
+    font-weight: 100;
+    text-align: left;
+}
+
+.testimonial .card .nama {
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+}
+
+.testimonial .card .profesi {
+    font-size: 12px;
+    color: white;
+    margin-top: -10px;
+}
+
+.testimonial .fa-angle-left, .testimonial .fa-angle-right {
+    color: white;
+}
+
+.testimonial div.owl-nav {
+    font-size: 30px;
+    font-weight: 100;
+    border: none;
+}
+
+.testimonial .owl-prev, .testimonial .owl-next {
+    position: absolute;
+}
+
+.testimonial .owl-prev {
+    top: 110px;
+    left: -30px;
+}
+
+.testimonial .owl-next {
+    top: 110px;
+    right: -30px;
+}
+
+
+
+
 @media (max-width: 768px) { 
     /* Active */
     .navbar .active {
@@ -465,6 +594,34 @@ body {
         font-size: 12px;
     }
 
+
+    /* Testimonial */
+    .testimonial .judul {
+        font-size: 32px;
+    }
+
+    .testimonial .card {
+        width: 230px;
+        height: 245px;
+    }
+
+    .testimonial .card .fa-quote-right {
+        font-size: 35px;
+    }
+
+    .testimonial .card p {
+        font-size: 14px;
+    }
+
+    .testimonial .owl-prev {
+        top: 100px;
+        left: -30px;
+    }
+    
+    .testimonial .owl-next {
+        top: 100px;
+        right: -30px;
+    }
 }
 
 
