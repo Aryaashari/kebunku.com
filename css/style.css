@@ -361,7 +361,7 @@ body {
     padding: 30px;
     background-size: cover;
     margin-top: 150px;
-    --webkit-background-attachement: fixed;
+    -webkit-background-attachement: fixed;
     background-attachment: fixed;
     position: relative;
 }
