@@ -46,6 +46,20 @@ body {
     border: none;
 }
 
+.navbar-toggler:focus {
+    outline: none;
+}
+
+.navbar .akunCart {
+    display: flex;
+}
+
+.navbar .akunCart a {
+    color: white;
+    margin-right: 10px;
+    font-size: 17px;
+}
+
 
 /* Slider */
 .slider-1 {
@@ -458,6 +472,10 @@ body {
     color: white;
 }
 
+.testimonial button:focus {
+    outline: none;
+}
+
 .testimonial div.owl-nav {
     font-size: 30px;
     font-weight: 100;
@@ -481,7 +499,7 @@ body {
 
 
 
-@media (max-width: 768px) { 
+@media only screen and (max-width: 767px) { 
     /* Active */
     .navbar .active {
         background-color: #ffa500;
@@ -495,7 +513,7 @@ body {
     }
 
     .nav-link {
-        font-size: 20px;
+        font-size: 18px;
         text-align: center;
     }
 
@@ -504,6 +522,25 @@ body {
         border: none;
         padding: 10px;
         box-sizing: border-box;
+    }
+
+    .navbar .akunCart {
+        justify-content: center;
+    }
+
+    .navbar .akunCart .akun, .navbar .akunCart .cart {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .navbar .akunCart .akun {
+        background-color: rgb(9, 214, 9);
+    }
+
+    .navbar .akunCart .cart {
+        background-color: orange;
     }
 
     /* Slider */
@@ -621,30 +658,53 @@ body {
 
     .testimonial .owl-prev {
         top: 100px;
-        left: -30px;
+        left: 10px;
     }
     
     .testimonial .owl-next {
         top: 100px;
-        right: -30px;
+        right: 10px;
     }
 }
 
 
-@media (min-width: 768px) and (max-width: 992px) { 
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
      /* Active */
      .navbar .active {
-        background-color: green;
+        background-color: orange;
         border: none;
         padding: 10px;
     }
 
+    .nav-link {
+        text-align: center;
+    }
+
     /* Navbar */
     .nav-link:hover {
-        background-color: green;
+        background-color: orange;
         border: none;
         padding: 10px;
         box-sizing: border-box;
+    }
+
+    .navbar .akunCart {
+        justify-content: center;
+    }
+
+    .navbar .akunCart .akun, .navbar .akunCart .cart {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .navbar .akunCart .akun {
+        background-color: rgb(9, 214, 9);
+    }
+
+    .navbar .akunCart .cart {
+        background-color: orange;
     }
 
     /* Slider */
@@ -690,7 +750,7 @@ body {
  }
 
 
- @media (min-width: 992px) and (max-width: 1200px) { 
+ @media only screen and (min-width: 992px) and (max-width: 1200px) { 
      /* Slider */
      .slider-2 .buah-sayur {
          width: 700px;
