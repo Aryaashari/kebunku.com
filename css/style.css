@@ -749,6 +749,18 @@ body {
         margin-top: 150px;
     }
 
+    /* Services */
+    .services .content .kotak-1,
+    .services .content .kotak-2,
+    .services .content .kotak-3 {
+        width: 230px;
+    }
+
+    .services .content {
+        flex-direction: row;
+    }
+
+
     /* About */
     .about {
         margin-top: 100px;
@@ -762,6 +774,11 @@ body {
         margin: auto;
         text-align: center;
         margin-bottom: 30px;
+    }
+
+    /* Testimonial */
+    .testimonial .card p {
+        color: white;
     }
  }
 
