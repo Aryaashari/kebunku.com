@@ -23,7 +23,7 @@ $(document).ready(function(){
     
     // Scroll Atas
     $(window).scroll(function() {
-        if ($(this).scrollTop() > 200) {
+        if ($(this).scrollTop() > 40) {
             $('.scrollAtas').fadeIn(100);
         } else {
             $('.scrollAtas').fadeOut(100);
