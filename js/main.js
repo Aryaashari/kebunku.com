@@ -1,4 +1,6 @@
+// Testimonial Carousel
 $(document).ready(function(){
+    // Testimonial Carousel
     $('.owl-carousel').owlCarousel({
         dots: false,
         loop:true,
@@ -16,4 +18,27 @@ $(document).ready(function(){
             }
         }
     })
+    // End Testimonial Carousel
+
+    
+    // Scroll Atas
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 200) {
+            $('.scrollAtas').fadeIn(100);
+        } else {
+            $('.scrollAtas').fadeOut(100);
+        }
+
+        // Smooth Scroll
+        if ($(window).scrollTop() == 0) {
+            $('.scrollAtas').stop();
+        } else {
+            $('.scrollAtas').click(function () { 
+                $('html,body').animate({scrollTop: 0}, 1000);
+             });
+        }
+    });
+    // End Scroll Atas
+
   });
+
