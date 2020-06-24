@@ -985,6 +985,10 @@ footer .text-copyright {
         bottom: 20px;
         right: 10px;
     }
+
+    .scrollAtas:hover {
+        color: white;
+    }
 }
 
 
