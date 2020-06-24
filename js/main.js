@@ -28,16 +28,13 @@ $(document).ready(function(){
         } else {
             $('.scrollAtas').fadeOut(100);
         }
-
-        // Smooth Scroll
-        if ($(window).scrollTop() == 0) {
-            $('.scrollAtas').stop();
-        } else {
-            $('.scrollAtas').click(function () { 
-                $('html,body').animate({scrollTop: 0}, 1000);
-             });
-        }
     });
+
+    // Smooth Scroll
+    $('.scrollAtas').click(function () { 
+        $('html,body').animate({scrollTop: 0}, 1000);
+    })
+
     // End Scroll Atas
 
   });

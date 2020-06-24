@@ -735,7 +735,7 @@ footer .text-copyright {
 /* Scroll Atas */
 .scrollAtas {
     background-color: orange;
-    font-size: 30px;
+    font-size: 20px;
     position: fixed;
     bottom: 50px;
     right: 50px;
@@ -977,6 +977,16 @@ footer .text-copyright {
 
     footer .about h1, footer .about span {
         font-size: 32px;
+    }
+
+
+    /* Scroll Atas */
+    .scrollAtas {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        bottom: 20px;
+        right: 10px;
     }
 }
 
